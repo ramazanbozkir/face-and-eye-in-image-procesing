@@ -1,6 +1,7 @@
+from matplotlib import pyplot as plt
 import numpy as np
 import cv2
-from matplotlib import pyplot as plt
+
 
 face_cascade = cv2.CascadeClassifier(r'C:\opencv\sources\data\haarcascades\haarcascade_frontalface_default.xml')
 eye_cascade = cv2.CascadeClassifier(r'C:\opencv\sources\data\haarcascades\haarcascade_eye.xml')
